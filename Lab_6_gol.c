@@ -2,7 +2,7 @@
  * Swarthmore College, CS 31
  * Copyright (c) 2020 Swarthmore College Computer Science Department,
  * Swarthmore PA, Professors Tia Newhall, Kevin Webb, and Vasanta Chaganti
- * Maria Quiroz and Alina Palacios
+ * Alina Palacios and Maria Quiroz
 
 // Top-Level Comments: For gol.c, we implemented various helper functions to 
 // successfully play Game of Life. We included two helper functions called 
