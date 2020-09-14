@@ -3,10 +3,10 @@ This repository contains some of my coding projects completed in C for lab assig
 completed for review and grading. 
 
 
-Lab 2: Statistics
+Lab 2: Sorting Data
 
 Link to Lab 2 for more details: https://www.cs.swarthmore.edu/~chaganti/cs31/s20/labs/lab02/
-Overview: We implemented a program called Lab_2_stats.c that sorts floating point numbers using a sorting algorithm of your choice in C. The program read a
+Overview: We implemented a program called Lab_2_sorter.c that sorts floating point numbers using a sorting algorithm of your choice in C. The program read a
 collection of unsorted floats from a file, stored those floats in an array, provided some information about the floats to the user, sorted them from smallest
 magnitude to largest magnitude (i.e., ascending order), and printed them out in sorted form to the user.
 Collaborator(s): Alex Comaniciu, Maria Quiroz
@@ -16,11 +16,11 @@ Collaborator(s): Alex Comaniciu, Maria Quiroz
 
 
 
-Lab 4: Sorting Data
+Lab 4: Statistics
 
 Link to Lab for more details: https://www.cs.swarthmore.edu/~chaganti/cs31/s20/labs/lab04/
 
-Overview: We created a program called Lab_4_sorter.c a C program that computes some statistics on a set of values that it 
+Overview: We created a program called Lab_4_stats.c a C program that computes some statistics on a set of values that it 
 reads in from a file. The program will use C pointers and dynamic memory allocation to allocate enough space for the set of 
 values it reads in. In addition, we wrote a sum function in IA32 assembly that is compiled into a program that 
 we used to test our function.
