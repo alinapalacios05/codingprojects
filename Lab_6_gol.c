@@ -28,32 +28,8 @@
 #include <time.h>
 #include <string.h>
 
-/****************** Definitions **********************/
-// Two possible modes in which the GOL simulation can run 
-#define OUTPUT_NONE   0   // with no animation
-#define OUTPUT_ASCII  1   // with ascii animation
-
-// Used to slow down animation run modes: usleep(SLEEP_USECS);
-// Swap the value to make theh animation run faster or slower 
-//#define SLEEP_USECS  1000000
-#define SLEEP_USECS    100000
-
-// A global variable to keep track of the number of live cells in the 
-// world (this is the ONLY global variable you may use in your program)
-static int total_live = 0;
-
-/* This struct represents all the data you need to keep track of your GOL
- * simulation.  Rather than passing individual arguments into each function,
- * we'll pass in everything in just one of these structs.
- * this is passed to play_gol, the main gol playing loop  
- *
- * NOTE: You will need to use the provided fields here, but you'll also 
- *       need to add additional fields. (note the nice field comments!)
- * NOTE: DO NOT CHANGE THE NAME OF THIS STRUCT!!!!
- */
 struct gol_data {
 
-   /* NOTE: DO NOT CHANGE the names of these 4 fields (but DO use them)*/
    int rows;  // the row dimension
    int cols;  // the column dimension
    int iters; // number of iterations to run the gol simulation
@@ -105,12 +81,6 @@ int main(int argc, char *argv[]) {
       exit(1);
    } 
 
-   /*  Timing information is provided to you. 
-    *  man gettimeofday to learn more about the datastructure 
-    *  struct timeval
-    *  In the following line we are creating two variables
-    *  start and end of type struct timeval. 
-    */
 
    struct timeval start, end;
    long micros;
@@ -125,9 +95,7 @@ int main(int argc, char *argv[]) {
    }
    else if (data.output_mode == OUTPUT_ASCII) { // run with ascii animation
            play_gol(&data);
-   /* NOTE: DO NOT modify this call to print_board at the end 
-    *      It's used in grading! 
-    */
+   
            print_board(&data, data.iters);
    } 
    else {
@@ -144,9 +112,6 @@ int main(int argc, char *argv[]) {
    micros = ((end.tv_sec-start.tv_sec) * 1000000) + (end.tv_usec-start.tv_usec);
    secs = micros / 1000000.0;
 
-   /* PLEASE do NOT MODIFY these calls to fprintf
-    * They are used in grading, and it will be easier 
-    * to give you full credit if they are't changed.
 
    // Printing the total runtime, in seconds. */
    fprintf(stdout, "Total time: %0.3f seconds\n", secs);
