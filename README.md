@@ -1,6 +1,5 @@
 # codingprojects
-This repository contains some of my coding projects completed in C for lab assignments at Swarthmore College. Here is an overview of three lab assignments I have
-completed for review and grading. 
+This repository contains some of my coding projects completed in Python and C for lab assignments at Swarthmore College. Here is an overview of three lab assignments I have completed for review and grading. 
 
 
 Lab 2: Sorting Data
