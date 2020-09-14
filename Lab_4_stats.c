@@ -2,7 +2,7 @@
  * Swarthmore College, CS 31
  * Copyright (c) 2020 Swarthmore College Computer Science Department,
  * Swarthmore PA, Professor Vasanta Chaganti
- * Lab 4, Maria Quiroz and Alina Palacios 
+ * Lab 4, Alina Palacios and Maria Quiroz
  * */
 
 /* 
