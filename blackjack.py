@@ -1,6 +1,6 @@
 """
 Simplified Blackjack
-A. Palacios
+Alina Palacios
 October 2019
 
 This program was created to simulate the game blackjack, where the user is constrained
