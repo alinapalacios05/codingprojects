@@ -13,6 +13,9 @@ Collaborator(s): Alex Comaniciu, Maria Quiroz
 
 
 
+
+
+
 Lab 4: Sorting Data
 
 Link to Lab for more details: https://www.cs.swarthmore.edu/~chaganti/cs31/s20/labs/lab04/
@@ -22,6 +25,9 @@ reads in from a file. The program will use C pointers and dynamic memory allocat
 values it reads in. In addition, we wrote a sum function in IA32 assembly that is compiled into a program that 
 we used to test our function.
 Collaborator(s): Maria Quiroz
+
+
+
 
 
 
