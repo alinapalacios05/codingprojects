@@ -120,10 +120,6 @@ int main(int argc, char *argv[]) {
 
 
 
-
-  // TODO: clean-up before exit make sure to call
-  //       frees, etc. to ensure there are no memory 
-  //       leaks with valgrind
    // free up memory for boards
    free(data->og_board);
    free(data->new_board); 
