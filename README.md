@@ -1,5 +1,5 @@
 # codingprojects
-This repository contains my some of my coding projects completed in C for lab assignments at Swarthmore College. Here is an overview of three lab assignments I have
+This repository contains some of my coding projects completed in C for lab assignments at Swarthmore College. Here is an overview of three lab assignments I have
 completed for review and grading. 
 
 
