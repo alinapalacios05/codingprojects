@@ -25,7 +25,11 @@ Collaborator(s): Maria Quiroz
 
 
 
+
+
+
 CS35: Data Structures and Algorithms, Fall 2020 
+
 Lab 6: Game Of Life
 
 Link to Lab 6 details: https://www.cs.swarthmore.edu/~chaganti/cs31/s20/labs/lab06/
@@ -40,6 +44,9 @@ Content in website links was created by Professor Vasanta Chaganti, Swarthmore C
 
 
 
+
+
+
 CS71: Software Engineering, Fall 2021
 
 SWE Project Name: Rainr 
@@ -47,6 +54,9 @@ Overview: Rainr is a web app that allows for a user to predict chances of floods
 Collaborator(s): Alfisyanrin Muhamad, Kaidan Fullerton, Max Sundgren
 
 Link to Rainr repo: https://github.swarthmore.edu/kfuller1/cs71-project-group3
+
+
+
 
 
 
@@ -58,6 +68,10 @@ Link to Lab 2 details: https://www.cs.swarthmore.edu/~kwebb/cs43/s22/labs/lab2.h
 
 Overview: This lab focused on building a web server. We found the requested files and serving them back to the clients. Some other tasks that were completed inlclude implementing the server side of (non-persistent) HTTP over a TCP connection, applying socket system calls (bind, listen, and accept) on a server process to interact clients and using threading to serve multiple concurrent clients.
 Collaborator(s): Maria Quiroz 
+
+
+
+
 
 
 CS63: Artificial Intelligence, Fall 2022
