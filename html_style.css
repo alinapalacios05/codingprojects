@@ -1,0 +1,160 @@
+body {
+    font-family:"Segoe UI";
+}
+
+#map {
+    width: 600px;
+    height: 400px;
+    margin-left: 29%; 
+    margin-bottom: 3%;
+}
+
+/* The Modal (background) */
+.modal {
+  /*display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #6395e6; /* Fallback color */
+}
+
+/* Modal Content */
+.modal-content {
+  /*background-color: #fefefe;*/
+  margin: auto;
+  padding: 20px;
+  /*border: 1px solid #888;*/
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.4)
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modText{
+	color: white;
+}
+
+#heading {
+    background-color: #6395e6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.subheading {
+    color:rgb(12, 35, 243);
+}
+
+.bordered-text {
+    padding: 40px;
+    border: solid #777777 1px;
+}
+
+.page-link {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.toggleZipCodeButton {
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: pink;
+  }
+
+  li a:active {
+    background-color: pink;
+  }
+
+  .button {
+    background-color: #4e75b4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 29px; 
+  }
+
+  .button a:hover {
+    background-color: pink;
+  }
+
+  .button a:active {
+    background-color: black;
+  }
+
+  .submit {
+    padding: 15px 32px;
+    margin-left: 29px;
+  }
+
+  .ZipCode{
+    margin-left: 29px;
+  }
+
+  .action-bar {
+    display: flex;
+  }
+  
+  .slider-wrapper {
+    margin-left: 29px;
+  }
+  
+  .slider-explation {
+    margin: 0px;
+    margin-left: 6px;
+    text-align: center;
+  }
+
+  #main-heading {
+    max-width: 77.27px;
+  }
+
+  #selectLocation {
+    margin-left: 22.5%;
+  }
